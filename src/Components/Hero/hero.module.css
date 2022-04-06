@@ -1,0 +1,21 @@
+.hero_container {
+    display: flex;
+    background-color: #F1F3FF;
+    padding: 0 100px;
+}
+
+.hero_text {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+p {
+    margin-right: 50px;
+}
+
+.hero_image {
+}

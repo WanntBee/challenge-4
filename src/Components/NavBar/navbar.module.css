@@ -1,0 +1,11 @@
+.navbar_container {
+    display: flex;
+    background: #F1F3FF;
+    padding: 25px 100px;
+}
+
+.navbar_right {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
