@@ -9,11 +9,11 @@ const NavBar = () => {
         <img src='/images/logo.png' alt='logo' className={style.navbar_logo} />
       </div>
       <div className={`${style.navbar_right} col-auto`}>
-        <div className='col-auto'>Our Service</div>
-        <div className='col-auto'>Why Us</div>
-        <div className='col-auto'>Testimonial</div>
-        <div className='col-auto'>FAQ</div>
-        <button className={`${style.register_button} btn-success`}>Register</button>      
+        <a href='#'><div className='col-auto'>Our Service</div></a>
+        <a href='#'><div className='col-auto'>Why Us</div></a>
+        <a href='#'><div className='col-auto'>Testimonial</div></a>
+        <a href='#'><div className='col-auto'>FAQ</div></a>
+        <button type="button" class="btn btn-success">Register</button>      
       </div>
     </div>
   )

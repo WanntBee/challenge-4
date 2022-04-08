@@ -12,10 +12,10 @@ const Footer = () => {
           <p>081-233-334-808</p>
         </div>
         <div className='col-2'>
-          <p className={`${style.link_site} font-weight-bold`}>Our Service</p>
-          <p className={`${style.link_site} font-weight-bold`}>Why Us</p>
-          <p className={`${style.link_site} font-weight-bold`}>Testimonial</p>
-          <p className={`${style.link_site} font-weight-bold`}>FAQ</p>
+          <a href="#"><p className={`${style.link_site} font-weight-bold`}>Our Service</p></a>
+          <a href="#"><p className={`${style.link_site} font-weight-bold`}>Why Us</p></a>
+          <a href="#"><p className={`${style.link_site} font-weight-bold`}>Testimonial</p></a>
+          <a href="#"><p className={`${style.link_site} font-weight-bold`}>FAQ</p></a>
         </div>
         <div className='col-3'>
           <p>Connect with Us</p>

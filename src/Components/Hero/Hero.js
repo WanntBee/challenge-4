@@ -10,7 +10,7 @@ const Hero = () => {
           <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
         </div>
       </div>
-      <img src='/images/img_car.png' alt='car_image' className={`${style.hero_image} w-100`} />
+      <img src='/images/img_car.png' alt='car image' className={`${style.hero_image}`} />
     </div>
   )
 }
